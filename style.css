@@ -1,7 +1,20 @@
 .box{
-    margin-top:50px;
+    margin-top:60px;
     margin-bottom:62px;
-    padding:10px;
-    background: whitesmoke;
-    border:2px solid black
+    padding:10px 20px 15px;
+    background: white;
+}
+
+img{
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+    
+}
+.vizualization{
+    width:50% !important;
+    height:50% !important;
 }

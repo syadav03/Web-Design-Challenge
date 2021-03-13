@@ -6,9 +6,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Latitude</title>
+    <title>Web Design Homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        
 
     <!-- Style sheet css doc-->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -30,10 +34,10 @@
                     Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Max Temperature</a>
-                    <a class="dropdown-item" href="#">Humidity</a>
-                    <a class="dropdown-item" href="#">Cloudiness</a>
-                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
                     <!-- <div class="dropdown-divider"></div> -->
                     <!-- <a class="dropdown-item" href="#">Something else here</a> -->
                 </div>
@@ -52,8 +56,8 @@
 <div class="container">
     <!-- Content here -->
     <div class="row">
-        <div class="col-lg-6 col-md-12">
-            <img src="assest/images/Fig1.png" alt="Fig1" class="img-thumbnail">
+        <div class="col-lg-7 col-md-12">
+            <img src="assest/images/Fig1.png" alt="Max Temperature Graph" class="vizualization rounded float-left">
             <!-- adding into summary of website-->
             <div class="box">
                 <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
@@ -69,6 +73,46 @@
             </div>
         </div>
     </div>
+<!-- right container-->
+<div class="col-lg-5 col-md-12">
+    <!-- Right Box -->
+    <div class="box">
+      <h5 class="title">Visualizations</h5>
+      <hr>
 
 
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-6">
+            <a href="max_temp.html">
+              <img class="panel" src="assest/images/Fig1.png" alt="Max Temperature Graph">
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="humidity.html">
+              <img class="panel" src="assest/images/Fig2.png" alt="Humidity Graph">
+            </a>
+          </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-6">
+            <a href="cloudiness.html">
+              <img class="panel" src="assest/images/Fig3.png" alt="Cloudiness Graph">
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="wind_speed.html">
+              <img class="panel" src="assest/images/Fig4.png" alt="Wind Speed Graph">
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
 </div>

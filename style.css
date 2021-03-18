@@ -5,16 +5,26 @@
     background: white;
 }
 
+.navbar{
+    max-height: 60px;
+    color:white;
+    background-color: darkturquoise;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    margin-left: 15px; 
+    padding: inherit;
+    font-weight: bold; 
+    color: white
+    background-color: #0BADA6;
+  }
+
+h2{
+    color:darkturquoise
+}
 img{
     width:100% !important;
     height:100% !important;
 }
-.active, .panel:hover{
-    border-color:#0BADA6;
-    border-style: solid; 
-    
-}
-.vizualization{
-    width:50% !important;
-    height:50% !important;
-}
+

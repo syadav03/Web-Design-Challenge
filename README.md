@@ -7,3 +7,5 @@ In building this dashboard, we'll create individual pages for each plot and a me
 
 There will be a landing page, comparison page,data and vizualization page. This should all be interactive as well to change once an image is clicked. The link below shows you how it should work.
 
+
+https://syadav03.github.io/Web-Design-Challenge/
